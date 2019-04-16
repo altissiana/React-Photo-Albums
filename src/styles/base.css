@@ -11,34 +11,110 @@ html {
 body {
   margin: 0;
   padding: 0;
-  display: flex;
-  height: auto;
-  /* background: #d0d0d0; */
-  /* background: #280000; */
   background: whitesmoke;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Arapey|Open+Sans+Condensed:300|Playfair+Display|Quattrocento+Sans|Shadows+Into+Light|Ubuntu");
 
-h1 {
+/* h1 {
   height: 200px;
   width: 100vw;
   text-decoration: overline underline line-through;
-  /* background: #e0e0e0; */
-  /* background: #280000; */
   background: whitesmoke;
   font-size: 70px;
   text-align: center;
   margin-top: 0px;
   font-family: "Playfair Display", serif;
   font-weight: lighter;
-  padding: 40px;
+  padding: 40px 0;
   color: black;
   /* -moz-box-shadow: inset 0 0 10px darkgrey;
   -webkit-box-shadow: inset 0 0 10px darkgrey;
-  box-shadow: inset 0 0 10px lightgrey; */
+  box-shadow: inset 0 0 10px lightgrey; 
+}*/
+
+.app {
+  width: 700px;
+  margin: auto;
 }
 
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.grid-item {
+  width: 100px;
+  margin: 20px 40px;
+}
+
+.grid a {
+  color: black;
+  text-decoration: none;
+}
+.grid h3 {
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.grid-item {
+  width: 150px;
+}
+
+.container {
+  display: flex;
+  color: black;
+}
+
+.container nav {
+  border-right: 1px solid black;
+  width: 300px;
+}
+
+.container nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+.container nav ul a {
+  color: black;
+  font-size: 12px;
+}
+
+.container nav li {
+  padding: 10px 0;
+}
+
+.imageView {
+  text-align: center;
+}
+
+.imageView img {
+  max-width: 100%;
+}
+
+.imageView > a {
+  padding: 10px 0;
+  display: block;
+  text-align: center;
+}
+
+.imageView > a::before {
+  content: "<";
+}
+
+.imageView .nav {
+  font-size: 60px;
+  color: black;
+  text-decoration: none;
+}
+/* 
 .box1 {
   background: black;
   height: 450px;
@@ -46,10 +122,11 @@ h1 {
   margin: -10px;
   margin-left: 200px;
   /* border: 1px solid #efefef; */
-  /* box-shadow: 0 1px 1px rgb(0, 0, 0, 0.15), 0 10px 0 -5px #eee,
+/* box-shadow: 0 1px 1px rgb(0, 0, 0, 0.15), 0 10px 0 -5px #eee,
     0 10px 1px -4px rgb(0, 0, 0, 0.15), 0 20px 0 -10px #eee,
     0 20px 1px -9px rgba(0, 0, 0, 0.15); */
-}
+/*}
+
 
 .box2 {
   height: 200px;
@@ -61,10 +138,10 @@ h1 {
   display: center;
   margin-right: -180px;
   /* border: 1px solid #efefef; */
-  /* box-shadow: 0 1px 1px rgb(0, 0, 0, 0.15), 0 10px 0 -5px #eee,
+/* box-shadow: 0 1px 1px rgb(0, 0, 0, 0.15), 0 10px 0 -5px #eee,
     0 10px 1px -4px rgb(0, 0, 0, 0.15), 0 20px 0 -10px #eee,
     0 20px 1px -9px rgba(0, 0, 0, 0.15); */
-}
+/*}
 
 .centered1 {
   position: absolute;
@@ -123,8 +200,7 @@ h1 {
 }
 
 .item {
-  border: 1px solid transparent;
-  margin-left: 100px;
+  margin-left: 170px;
   margin-top: 50px;
 }
 
@@ -139,4 +215,4 @@ h1 {
   margin-top: 50%;
   border-radius: 0px 100px 0 0;
   text-align: left;
-}
+} */
